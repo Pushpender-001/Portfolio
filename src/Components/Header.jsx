@@ -13,16 +13,16 @@ const Header = () => {
     <header className='flex flex-wrap justify-between md:items-center text-white px-10 pt-6 px-20'>
       <div className='text-xl font-bold tracking-wide'>PORTFOLIO</div>
         <ul className={`${menu ? "block" : "hidden"}  mx-24 py-2 mt-4 font-semibold md:mt-5 bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}>
-          <a href="#ABOUT ME">
+          <a href="About.jsx">
           <li className='text-md transition-all duration-300 p-1 md:p-0 flex gap-1'> <CgProfile className='font-bold mt-1'/>ABOUT ME</li>
          </a>
-         <a href="#SKILLS">
+         <a href="Skills">
           <li className='text-md transition-all duration-300 p-1 md:p-0 flex gap-1'> <FaProjectDiagram className='font-bold mt-1'/>SKILLS</li>
          </a>
-         <a href="PROJECT">
+         <a href="Project.jsx">
           <li className='text-md transition-all duration-300 p-1 md:p-0 flex gap-1'> <FaFolderOpen className='font-bold mt-1'/> PROJECT</li>
           </a>
-          <a href="CONTACT">
+          <a href="Footer.jsx">
           <li className='text-md transition-all duration-300 p-1 md:p-0 flex gap-1'> <FaPhoneAlt className='font-bold mt-1'/>CONTACT</li>
         </a>
         </ul>
